@@ -1,6 +1,6 @@
 # tiny-chess-01 entry
 
-A chess engine in 3,472 bytes of Python (standard library only), built for
+A chess engine in 4,068 bytes of Python (standard library only), built for
 make.fun's "Build the strongest chess engine in 4 KB of Python" bounty.
 
 `main.py` is the whole engine: a 0x88 board, negamax alpha-beta search with
