@@ -1,6 +1,6 @@
 # tiny-chess-01 entry
 
-A chess engine in 3,492 bytes of Python (standard library only), built for
+A chess engine in 3,472 bytes of Python (standard library only), built for
 make.fun's "Build the strongest chess engine in 4 KB of Python" bounty.
 
 `main.py` is the whole engine: a 0x88 board, negamax alpha-beta search with
@@ -13,5 +13,6 @@ table: as non-pawn material leaves the board, the king's table blends from
 its middlegame (back-rank) values toward centralising endgame values.
 
 `main.py` is a packed form of the readable source (`engine_source.py`, kept
-alongside the build but not committed): lzma-compressed and embedded as a
-latin-1 string literal, as the competition rules explicitly allow.
+alongside the build but not committed), produced by the kit's own
+`makefun compress`: lzma-compressed and embedded as a latin-1 string
+literal, as the competition rules explicitly allow.
